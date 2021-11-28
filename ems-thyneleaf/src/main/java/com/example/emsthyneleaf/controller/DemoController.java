@@ -12,7 +12,7 @@ public class DemoController {
 
     @GetMapping("/demo")
     public String demo(Model model) {
-        model.addAttribute("name","Aaron");
+        model.addAttribute("name", "Aaron");
         log.debug("demo ok");
         return "demo";
     }
